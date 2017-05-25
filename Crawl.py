@@ -23,6 +23,8 @@ SavePagerURLs = "pageUrl.csv"
 SaveSubURLs = "subPageUrl.csv"
 # 存放 innerHTML 
 SaveInnerPageURLs = "dome.csv"
+SaveLogURLs = "log.csv"
+
 htmlparser= "html.parser"
 headers= {
         'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -40,6 +42,21 @@ logSetURLs=[]  # 记录所有需要重新爬的 URLs
 # 1 -- SubPageURLs 
 # 2 -- InnerHtmlPageURLs
 # 3 -- InnerHtmlContent
+
+def SaveLogInFile(log,fname):
+	print "the Log File:"
+	print len(SaveLogURLs )
+	for u in logSetURLs:
+		print u
+	lfile = open(SaveLogURLs ,"w")
+	for i,urlset in enumerate(logSetURLs):
+		urls = [j for j in urlset]
+		lfile.write("%d"% i)
+		for url in urls:
+			if url != "":
+				lfile.write(",%s" % url)
+		lfile.write("\n")
+	lfile.close()
 
 # 获取 towards (首页，上一页，当前页，下一页，尾页的) 的 link		
 def getTowards(soup,towards):
@@ -154,6 +171,7 @@ def saveLiksInFile(links,fname,format=None):
 
 def getPagerURLs(seed_url,links,root=None):
 	global towards
+	PageURLset=set()
 	if links == [] or (seed_url not in links): 
 		#seed_url=setPageSize(seed_url)
 		links.append(seed_url)
@@ -166,11 +184,13 @@ def getPagerURLs(seed_url,links,root=None):
 		html = download(link,headers)
 		if html == None:
 			print "ERROR: %s  can't download" % link
+			PageURLset.add(link)
 			break
 		## 生成 BeautiSoup 对象 soup ，并判断是否成功
 		soup = BeautifulSoup(html,htmlparser)
 		if not soup :
 			print "ERROR: %s  can't BeautifulSoup" % link
+			PageURLset.add(link)
 			break
 		## 从 soup 中读取 指定url 存入 urls 中
 		nexturl = getTowards(soup,towards[3])
@@ -186,7 +206,11 @@ def getPagerURLs(seed_url,links,root=None):
 	#getTowards(soup,towards)
 	for i in range(len(links)):
 		links[i] = setPageSize(links[i])
-		
+	# 添加logSetURLs
+	if len(logSetURLs) <1 and len(logSetURLs) >=0:
+		logSetURLs.append(PageURLsets)
+	else:
+		logSetURLs[0]=PageURLsets
 	pass
 
 def crawlPageURLs(seed_url,SaveFile,root=None):
@@ -211,6 +235,7 @@ def getSubPageURLs(soup):
 def crawSubPageURLs(rfile,wfile,root=None):
 	urls = []
 	tmpurls = []
+	SubPageURLset=set("")
 	try:
 		links = getLinksFromFile(rfile,root=root)
 		#getURLsFromLinks(links,urls,func=getSubPageURLs)
@@ -218,9 +243,11 @@ def crawSubPageURLs(rfile,wfile,root=None):
 			for link in links:
 				html = download(link,user_agent=headers)
 				if html == None:
+					SubPageURLset.add(link)
 					continue
 				soup = BeautifulSoup(html,htmlparser)
 				if soup == None:
+					SubPageURLset.add(link)
 					continue
 				tmpurls = getSubPageURLs(soup)
 				for url in tmpurls:
@@ -233,7 +260,17 @@ def crawSubPageURLs(rfile,wfile,root=None):
 	except Exception as e:
 		print e
 	finally:
+		logsize = len(logSetURLs)
+		if logsize < 1:
+			for i in range(1):
+				logSetURLs.append(set())
+		else:
+			if len(logSetURLs) <2 and len(logSetURLs) >=1:
+				logSetURLs.append(SubPageURLset)
+			else:
+				logSetURLs[1]=PageURLsets
 		return saveLiksInFile(urls,wfile)
+		
 
 		
 def getInnerPageURLs(soup):
@@ -248,6 +285,7 @@ def getInnerPageURLs(soup):
 def crawInnerPageURLs(rfile,wfile,root=None):
 	urls =[]
 	tmpurl= []
+	InnerHtmlPageURLset = set("")
 	try:
 		links = getLinksFromFile(rfile,root=root)
 		#getURLsFromLinks(links,urls,func=getInnerPageURLs)
@@ -255,9 +293,11 @@ def crawInnerPageURLs(rfile,wfile,root=None):
 			for link in links:
 				html = download(link,user_agent = headers)
 				if html == None:
+					InnerHtmlPageURLset.add(link)
 					continue
 				soup = BeautifulSoup(html,htmlparser)
 				if soup ==  None:
+					InnerHtmlPageURLset.add(link)
 					continue
 				tmpurl = getInnerPageURLs(soup)
 				for url in tmpurl:
@@ -270,12 +310,22 @@ def crawInnerPageURLs(rfile,wfile,root=None):
 	except Exception as e:
 		print e
 	finally:
-		return saveLiksInFile(urls,wfile,format = 1)
+		logsize = len( InnerHtmlPageURLset )
+		if logsize < 2:
+			for i in range(2):
+				logSetURLs.append(set(""))
+		else:
+			if len( InnerHtmlPageURLset ) <3 and len( InnerHtmlPageURLset ) >=2:
+				logSetURLs.append( InnerHtmlPageURLset )
+			else:
+				logSetURLs[2]=PageURLsets
+		return saveLiksInFile(urls,wfile,format = 2)
 
 # 从文件 SavePagerURLs 中逐条读取 pagerURL, 并把个 pagerURL 网页中 subURLs 保存到 文件 SaveSubURLs
 def saveInnerHTML(dome,root=None):
 	dfile=open(dome,"r")
 	nloop=1
+	InnerHtmlContentset=set("")
 	while True:
 		line = dfile.readline()
 		if not line:
@@ -283,8 +333,12 @@ def saveInnerHTML(dome,root=None):
 		durl = delEnter.findall(line)[0]
 		# 因为格式类似这个[u'/webfile/xinxiang/cgxx/jggg/webinfo/2017/05/1494846022264031.htm'] 
 		dhtml = download(durl,headers)
+		if dhtml == None:
+			InnerHtmlContentset.add(durl)
+			break
 		soup =BeautifulSoup(dhtml,"html.parser")
 		if soup ==None:
+			InnerHtmlContentset.add(durl)
 			break
 		
 		saveName = ("inh%s.txt" % nloop)
@@ -311,6 +365,16 @@ def saveInnerHTML(dome,root=None):
 			break
 	pass
 	dfile.close()
+	logsize = len(logSetURLs)
+	if logsize <3:
+		for i in range(3):
+			logSetURLs.append(set(""))
+	else:
+		if len(logSetURLs) <4 and len(logSetURLs) >=3:
+				logSetURLs.append(InnerHtmlContentset)
+		else:
+			logSetURLs[3]=InnerHtmlContentset
+	pass
 				
 if __name__=="__main__":
 	# links = []
@@ -329,7 +393,7 @@ if __name__=="__main__":
 	while True:
 		chose = raw_input("Please input you chose:\n\ta.Crawl Page URLs\n\tb.Crawl SubPage URLs\n\tc.Crawl InnerPage URLs\n\tq.quit\n\t")
 		if chose == "a":
-			pi = crawlPageURLs(seed_url,SavePagerURLs,2)
+			pi = crawlPageURLs(seed_url,SavePagerURLs)
 			print "\ncrawlPageURLs is OK!\nThe file has %d lines \n" % pi
 			pass
 		elif chose == "b":
@@ -350,6 +414,8 @@ if __name__=="__main__":
 	print "%s has %d lines " %(SavePagerURLs,pi)
 	print "%s has %d lines " %(SaveSubURLs,si)
 	print "%s has %d lines " %(SaveInnerPageURLs,ii)
+	
+	SaveLogInFile(logSetURLs,SaveLogURLs )
 	
 	# try ger the innerHtmlContent
 	while chose !='y' and chose != 'n' and chose != 'Y' and chose != 'N':
@@ -376,7 +442,13 @@ if __name__=="__main__":
 	print "%s has %d lines " %(SaveSubURLs,si)
 	print "%s has %d lines " %(SaveInnerPageURLs,ii)
 	pass
-	
+	while chose !='y' and chose != 'n' and chose != 'Y' and chose != 'N':
+		chose = raw_input("do you want to download the inner html content?(y/n)")
+		if chose =='y'  or chose =='Y':
+			print "The Inner Html Content" 
+			saveInnerHTML(SaveInnerPageURLs)
+		pass
+	SaveLogInFile(logSetURLs,SaveLogURLs )
 
 	
 	
