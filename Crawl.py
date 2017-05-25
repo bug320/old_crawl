@@ -354,7 +354,7 @@ if __name__=="__main__":
 	# try ger the innerHtmlContent
 	while chose ==y or chose == x or chose ==Y or chose == X:
 		chose = raw_input("do you want to download the inner html content?(y/n)")
-		if 
+		if chose ==y  or chose ==Y:
 			print "The Inner Html Content" 
 			saveInnerHTML(SaveInnerPageURLs)
 		pass
