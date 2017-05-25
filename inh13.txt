@@ -1,0 +1,196 @@
+st1\:*{behavior:url(#ieooui) }
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:"es New Roman";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536855809 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+p
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:Calibri;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1491555424;
+	mso-list-type:simple;
+	mso-list-template-ids:1491555424;}
+@list l0:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:chinese-counting;
+	mso-level-suffix:none;
+	mso-level-text:%1、;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:1491555552;
+	mso-list-type:simple;
+	mso-list-template-ids:1491555552;}
+@list l1:level1
+	{mso-level-start-at:4;
+	mso-level-number-format:chinese-counting;
+	mso-level-suffix:none;
+	mso-level-text:%1、;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+项目编号：中牟政采竞谈
+-
+2017-05-8
+河南腾飞工程造价咨询有限公司受中牟县市政管理所的委托，对中牟县市政管理所关于荟萃路、东风路等路灯维修工程进行竞争性谈判采购，现就本次谈判结果公布如下：
+一、招标项目名称及编号：
+项目名称：中牟县市政管理所关于荟萃路、东风路等路灯维修工程
+项目编号：中牟政采竞谈
+-
+2017-05-8
+二、
+项目概况：
+资金来源：财政资金，已落实
+预算金额：约
+40
+万元
+;
+工期要求：
+30
+天
+质量要求：符合国家相关规定；
+三、招标信息：
+本项目于
+2017
+年
+5
+月
+15
+日在《中国采购与招标网》、《河南省政府采购网》、《河南招标采购综合网》、《中牟县政府采购网》等网站上发布竞争性谈判公告。
+四、
+谈判信息：
+谈判日期：
+2017
+年
+5
+月
+24
+日下午
+14
+：
+30
+分（北京时间）
+谈判地点：郑州市青年路玉凤路交叉口升龙环球大厦
+C
+座
+13
+层
+1305
+室河南腾飞工程造价咨询有限公司会议室
+谈判小组成员名单：刘军、常新伟、刘鹏
+五、成交结果信息：
+成交人名称：河南中兆建筑工程有限公司
+地 址：兰考县仪封工业园区
+项目成交价：
+399578.00
+元
+项目经理：堵利珍
+工
+期：
+30
+天
+六、本次招标联系事项：
+采购人：中牟县市政管理所
+联系人：李女士
+联系电话：
+0371-62198899
+采购代理机构：河南腾飞工程造价咨询有限公司
+联系人：张先生、赵先生
+联系电话：
+0371-63217392
+通讯地址：郑州市青年路玉凤路交叉口升龙环球大厦
+C
+座
+13
+层
+1305
+室
+七、本次公告发布媒体：
+本次成交结果公告在《中国采购与招标网》《河南省政府采购网》《河南招标采购综合网》《中牟县政府采购网》等相关媒体同时发布。
+各有关当事人对成交结果有异议的，可以在成交结果公告发布之日起三个工作日内，以书面形式同时向采购人和采购代理机构提出质疑（加盖单位公章且法人代表签字），由法人代表或其授权代表携带企业营业执照复印件（加盖公章）及本人身份证（原件）一并提交（邮件、传真件不予受理），并以有效质疑函接受确认日期为受理时间。逾期提交或未按要求提交的质疑函将不予受理。
+谨对参与本项目投标的各供应商表示衷心的感谢！
+[点击下载]
+2017
+年
+5
+月
+24
+日

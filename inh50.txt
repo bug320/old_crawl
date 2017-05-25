@@ -1,0 +1,212 @@
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:83.35pt 90.0pt 83.35pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1489198671;
+	mso-list-type:simple;
+	mso-list-template-ids:1489198671;}
+@list l0:level1
+	{mso-level-start-at:5;
+	mso-level-number-format:chinese-counting;
+	mso-level-suffix:none;
+	mso-level-text:%1、;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+河南四方建设管理限公司受邓州市食品药品监督管理局的委托，就邓州市检验检测中心实验仪器采购项目进行公开招标，按规定程序进行了开标、评标、定标，现就本次招标的中标结果公布如下：
+一、招标项目名称及标书编号
+：
+1
+.
+项目名称：邓州市检验检测中心实验仪器采购项目
+2.
+项目编号：
+SFZB-2017-0304
+二、招标公告媒体及日期：
+本项目于
+2017
+年
+4
+月
+28
+日在《中国采购与招标网》、《河南招标采购综合网》、《河南省政府采购网》、《邓州市公共资源交易中心网》上发布招标公告。
+三、评标信息：
+1.
+评标日期：
+2017
+年
+5
+月
+23
+日
+8
+时
+00
+分
+2.
+评标地点：邓州市公共资源交易中心评标室
+3.
+评委专家：马宏、郭天松、王东民、白新青、鲁红军
+四、评审结果
+：
+评标委员会按照招标文件要求对各投标人的投标文件认真评审，推荐中标候选人如下：
+第一标段
+:
+有效投标文件不足三家，以流标处理。
+第二标段
+:
+有效投标文件不足三家，以流标处理。
+第三标段
+:
+第一中标侯选人：河南中标科技有限公司
+中标金额：
+1528000.00
+元
+第二中标侯选人：河南安恒仪器设备有限公司
+中标金额：
+1557000.00
+元
+第三中标侯选人：河南瑞科仪器设备有限公司
+中标金额：
+1548800.00
+元
+第四标段
+:
+有效投标文件不足三家，以流标处理。
+第五标段
+:
+有效投标文件不足三家，以流标处理。
+第六标段
+:
+第一中标侯选人：郑州普天实验仪器有限公司
+中标金额：
+735900.00
+元
+第二中标侯选人：河南安恒仪器设备有限公司
+中标金额：
+728600.00
+元
+第三中标侯选人：河南科盛仪器设备有限公司
+中标金额：
+746700.00
+元
+第七标段
+:
+有效投标文件不足三家，以流标处理。
+第八标段
+:
+有效投标文件不足三家，以流标处理。
+各有关当事人对中标结果有异议的，可以在中标公告发布之日起
+7
+个工作日内，以书面形式向招标人及招标代理机构提出质疑（加盖单位公章且法人签字），由法定代表人或其原授权代表亲自携带企业营业执照副本原件及本人身份证件（原件）一并提交（邮寄、传真件不予受理），并以质疑函接受确认日期作为受理时间。逾期未提交或未按照要求提交的质疑函将不予受理。
+五、
+招标人、招标代理机构及联系方式：
+招标人：邓州市食品药品监督管理局
+联系人：郭先生
+联系电话：
+0377-62168117
+招标代理机构：河南四方建设管理有限公司
+联系人：王女士
+电
+话：
+0377-60577886
+2017
+年
+5
+月
+24
+日

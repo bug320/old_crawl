@@ -1,0 +1,161 @@
+st1\:*{behavior:url(#ieooui) }
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"‘Lucida Sans Unicode‘";
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:roman;
+	mso-font-pitch:auto;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@‘Lucida Sans Unicode‘";
+	mso-font-charset:134;
+	mso-generic-font-family:roman;
+	mso-font-pitch:auto;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 54.9pt 72.0pt 99.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-page-numbers:0;
+	mso-paper-source:0;
+	layout-grid:14.5pt -.85pt;
+	mso-layout-grid-char-alt:-3447;}
+div.Section1
+	{page:Section1;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+1
+、招标
+公告文号：
+乐政采招标
+[2017]
+——豫盛华采字第
+033
+号
+B
+包
+2
+、采购项目名称：
+水政监察识别服
+3
+、采购单位名称：南乐县水利局
+4
+、招标代理机构名称：
+河南盛华会计师事务所有限公司
+5
+、招标代理机构地址：
+濮阳市古城路教育局临街楼二楼西
+6
+、联系方式：
+0393-6666773
+7
+、招标公告日期：
+2017
+年
+5
+月
+17
+日
+----
+2017
+年5
+月23
+日
+8
+、开标日期：
+2017
+年
+5
+月
+24
+日
+9
+、谈判小组成员：吴小强
+张学峰
+葛素靖
+10
+、谈判文件：
+点击下载
+11
+、评标情况：
+成交单位：山西苏派商贸有限公司
+成交金额：柒万玖仟捌佰捌拾捌元整
+（￥：
+79888.00
+）
+如对本次招标结果有异议，请于本公告公布之日起
+3
+个工作日内，以书面形式（加盖公章）向本代理机构提出质疑（不接受快递及电子邮件；须提交法人代表授权书、被授权人身份证原件及复印件，注明联系方式），过期不候！
+特此公告
+河南盛华会计师事务所有限公司
+二零一七年五月二十四日

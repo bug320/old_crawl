@@ -352,9 +352,9 @@ if __name__=="__main__":
 	print "%s has %d lines " %(SaveInnerPageURLs,ii)
 	
 	# try ger the innerHtmlContent
-	while chose ==y or chose == x or chose ==Y or chose == X:
+	while chose !='y' and chose != 'n' and chose != 'Y' and chose != 'N':
 		chose = raw_input("do you want to download the inner html content?(y/n)")
-		if chose ==y  or chose ==Y:
+		if chose =='y'  or chose =='Y':
 			print "The Inner Html Content" 
 			saveInnerHTML(SaveInnerPageURLs)
 		pass

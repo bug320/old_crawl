@@ -1,0 +1,165 @@
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+河南广电招标有限公司受郑州市工商行政管理局的委托，就郑州市工商行政管理局招聘
+2017
+年度热线话务员项目依照程序进行公开招标，现就结果公布如下：
+一、项目名称及编号：
+项目名称：郑州市工商行政管理局招聘
+2017
+年度热线话务员项目；
+招标编号：郑财招标采购
+-2017-242
+号。
+二、项目简要说明：
+1
+、服务内容：
+2017
+年度热线话务员
+16
+名劳务（具体内容详见招标文件）；
+2
+、预算金额：
+80
+万；
+3
+、资金来源：财政资金。
+三、公告发布媒体及日期：
+2017
+年
+5
+月
+4
+日在河南省政府采购网上发布招标公告。
+四、评标信息：
+评标日期：
+2017
+年
+5
+月
+24
+日
+；
+评标地点：郑州市黄河路
+3
+号
+221
+室 ；
+监 督 人：张静；
+评标专家：朱志林、张慧娟、邰双汭、刘建伟、王选顺。
+四、成交结果：
+因对招标文件作实质上响应的投标人不足三家，本次采购予以废标。
+五、本次招标联系事项：
+采购人：郑州市工商行政管理局
+地址：郑州市大学北路
+联系人：朱先生
+联系电话：
+0371-86080796
+招标代理机构：河南广电招标有限公司
+联 系 人：秦先生、尼先生； 联系地址：郑州市黄河路
+3
+号；
+电
+话：
+0371-65887849
+；
+邮
+箱：
+hngd-tendering@163.com
+谨对参加本次开标的采购单位、投标单位、监督人、评标委员会成员表示感谢。各有关当事人对评标结果有异议的，可以在公告发布之日起七个工作日内，以书面形式同时向采购人和采购代理机构提出质疑
+(
+法定代表人签字并加盖单位公章
+)
+，由法定代表人或其授权代表携带本人身份证件提交（邮寄、传真件不予受理）。逾期提交或未按照要求提交的质疑函将不予受理。
+未中标的投标人与河南广电招标有限公司联系，办理退还投标保证金事宜。
+河南广电招标有限公司
+2017
+年
+5
+月
+24
+日

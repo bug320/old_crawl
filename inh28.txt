@@ -1,0 +1,165 @@
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+/* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+新乡市公村棚户区改造工程（一期）项目地下车库及人防工程
+结果公示
+一、招标人：新乡保障房投资开发有限公司
+二、招标代理机构：北京国金管理咨询有限公司
+三、项目名称：新乡市公村棚户区改造工程（一期）项目地下车库及人防工程
+项目编号：新交建
+17-024
+四、招标范围：地下车库及人防工程施工，详见图纸及工程量清单。本工程为地下车库及人防工程，车库层高为
+4
+米，建筑高度
+-5.7m
+，结构类型框架，结构耐火等级一级，停车数
+480
+辆。
+五、结果内容：
+第一中标候选人：安阳建工（集团）有限责任公司 报价：肆仟柒佰零捌万捌仟贰佰贰拾肆元零捌分（￥
+47088224.08
+）
+;
+项目经理：李东旺
+第二中标候选人：新蒲建设集团有限公司 报价：肆仟陆佰柒拾捌万零玖佰捌拾柒元柒角柒分（￥
+46780987.77
+）
+;
+项目经理
+:
+郭小成
+第三中标候选人：湖南省第六工程有限公司 报价：肆仟柒佰零叁万柒仟玖佰贰拾壹元玖角捌分（￥
+47037921.98
+）
+;
+项目经理
+:
+朱富康
+六、项目发布招标公告日期：
+2017
+年
+05
+月
+02
+日
+七、项目联系人：王先生
+联系电话：
+0371-63768337,18638228716
+八、监督单位：
+新乡市公共资源交易管理委员会办公室
+:0373-3028801
+新乡市财政局：
+0373-3688617
+新乡市审计局：
+0373-3696320
+新乡市住建委：
+0373-3051557
+招标人：新乡保障房投资开发有限公司
+招标代理机构：北京国金管理咨询有限公司
+2017
+年
+05
+月
+24
+日
+[点击下载]
