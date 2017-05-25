@@ -352,9 +352,13 @@ if __name__=="__main__":
 	print "%s has %d lines " %(SaveInnerPageURLs,ii)
 	
 	# try ger the innerHtmlContent
-	print "The Inner Html Content" 
-	saveInnerHTML(SaveInnerPageURLs)
-	
+	while chose ==y or chose == x or chose ==Y or chose == X:
+		chose = raw_input("do you want to download the inner html content?(y/n)")
+		if 
+			print "The Inner Html Content" 
+			saveInnerHTML(SaveInnerPageURLs)
+		pass
+	pass
 	print "It.s the Whole test:"
 	pageInfo = raw_input("Please input how many page you'd like to crawl (zero for all):")
 	
