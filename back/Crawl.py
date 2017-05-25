@@ -34,13 +34,6 @@ headers= {
 		'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
         }
 
-		
-logSetURLs=[]  # 记录所有需要重新爬的 URLs 
-# 0 -- PageURLs 
-# 1 -- SubPageURLs 
-# 2 -- InnerHtmlPageURLs
-# 3 -- InnerHtmlContent
-
 # 获取 towards (首页，上一页，当前页，下一页，尾页的) 的 link		
 def getTowards(soup,towards):
 	for item in soup.find_all("div",class_=re.compile("PageList")):
@@ -62,20 +55,7 @@ def getHtmlId(soup,toward):
 	l =cp1.search(url) 
 	l=(l.groups(0)[0])
 	return l
-def setPageSize(links):
-    link = links[:]
-    n = link.find("pageSize")
-    m = link.find("pageNo")
-    if n < 0 and m <0:
-        link+= "&pageSize=30&pageNo=1"
-    elif n <0 and m > 0:
-        link = link[:m-1] + "&pageSize=30" + link[m-1:]
-    elif n >0 and m >0:
-        link =link[:n-1]+ "&pageSize=30"+link[m-1:]
-    else : #(n>0,m<0)
-        link =link[:n-1]+"&pageSize=30&pageNo=1"
-    return link[:]
- 
+
 
 # 下载网页到			
 def download(url,user_agent=headers,proxy=None,num_retries=5):
@@ -155,8 +135,7 @@ def saveLiksInFile(links,fname,format=None):
 def getPagerURLs(seed_url,links,root=None):
 	global towards
 	if links == [] or (seed_url not in links): 
-		#seed_url=setPageSize(seed_url)
-		links.append(seed_url)
+		links.append(seed_url+"&pageSize=30")
 	nloop = 1
 	while True:	
 		link = links[-1]
@@ -166,27 +145,24 @@ def getPagerURLs(seed_url,links,root=None):
 		html = download(link,headers)
 		if html == None:
 			print "ERROR: %s  can't download" % link
-			break
+			return False
 		## 生成 BeautiSoup 对象 soup ，并判断是否成功
 		soup = BeautifulSoup(html,htmlparser)
 		if not soup :
 			print "ERROR: %s  can't BeautifulSoup" % link
-			break
+			return False
 		## 从 soup 中读取 指定url 存入 urls 中
 		nexturl = getTowards(soup,towards[3])
 		nexturl = urlparse.urljoin(seed_url,nexturl)
 		if not nexturl or nexturl in links:
-			break
+			return
 		else:
-			#nexturl =seed_url(nexturl)
-			links.append(nexturl)
+			#nexturl =nexturl+"&pageSize=30"
+			links.append(nexturl+"&pageSize=30")
 		nloop += 1
 		if root != None and nloop >= root:
 			break	
 	#getTowards(soup,towards)
-	for i in range(len(links)):
-		links[i] = setPageSize(links[i])
-		
 	pass
 
 def crawlPageURLs(seed_url,SaveFile,root=None):
@@ -329,7 +305,7 @@ if __name__=="__main__":
 	while True:
 		chose = raw_input("Please input you chose:\n\ta.Crawl Page URLs\n\tb.Crawl SubPage URLs\n\tc.Crawl InnerPage URLs\n\tq.quit\n\t")
 		if chose == "a":
-			pi = crawlPageURLs(seed_url,SavePagerURLs,2)
+			pi = crawlPageURLs(seed_url,SavePagerURLs)
 			print "\ncrawlPageURLs is OK!\nThe file has %d lines \n" % pi
 			pass
 		elif chose == "b":
@@ -350,10 +326,6 @@ if __name__=="__main__":
 	print "%s has %d lines " %(SavePagerURLs,pi)
 	print "%s has %d lines " %(SaveSubURLs,si)
 	print "%s has %d lines " %(SaveInnerPageURLs,ii)
-	
-	# try ger the innerHtmlContent
-	print "The Inner Html Content" 
-	saveInnerHTML(SaveInnerPageURLs)
 	
 	print "It.s the Whole test:"
 	pageInfo = raw_input("Please input how many page you'd like to crawl (zero for all):")
